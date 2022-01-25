@@ -1,0 +1,17 @@
+{
+    "name": "devinfo/mvc-maison",
+    "autoload": {
+        "psr-4": {
+            "Devinfo\\MvcMaison\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cancoin",
+            "email": "alss-dipsw21-cso@ccicampus.fr"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
