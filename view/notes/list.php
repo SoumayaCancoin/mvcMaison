@@ -19,13 +19,13 @@
                     <div class="card shadow  card_connexion mb-2 p-5 " >
                     <div class="card-body p-4">
                         
-                        <h3 class=" text-center mb-1">Créer un nouveau projet</h3>
-                        <p>Vous pouvez ajouter des informations sur votre projet</p>
+                        <h3 class=" text-center mb-1">Créer une nouvelle liste</h3>
+                        <p>Vous pouvez ajouter des informations sur la  liste</p>
              <!-- -------------------profil form------------- -->
                     <form>
                         <!--  Title change input -->
                         <div class="form-group mb-3">
-                        <label class="form-label" for="form3Example3cg"> Titre </label>
+                        <label class="form-label" for="form3Example3cg"> nom de la liste  </label>
                             <input type="text" class="form-control mr-2" placeholder="Titre" aria-label="Titre" aria-describedby="button-addon2">
                             
                         </div>
@@ -43,7 +43,7 @@
                             <button type="button" class="btn btn-light btn-secondary btn-lg gradient-custom-4 text-body mt-2">Valider</button>
                             
                         </div>
-                        
+                     
                         <img src="<?php echo IMG_PATH;?>pic_project_add.png" alt="photo_ictorielle">
                     </form>
             </div>

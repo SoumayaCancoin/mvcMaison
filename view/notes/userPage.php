@@ -100,35 +100,45 @@
       </div>
       <!-- choosing the card color div -->
       <div class="container w-50 rounded-bottom container-nav-2 ">
-        <h5 class='text-center'>veuillez choisir les cartes pour vos tableaux </h5>
+        <h5 class='text-center'>veuillez choisir les cartes pour vos listes </h5>
         <div class="container overflow-hidden">
           <div class="row gx-5">
             <div class="col">
-              <div class=" p-3   post-it-pearple"></div>
+              <div class=" p-3   post-it-pearple"><a href="card.php" class="link"><img src="<?php echo IMG_PATH;?>add-icone.png" alt="icone" class="rounded mx-auto d-block">Ajouter </a></div>
             </div>
             <div class="col">
-              <div class="p-3   post-it-orange"></div>
+              <div class="p-3   post-it-orange"><a href="card.php" class="link"><img src="<?php echo IMG_PATH;?>add-icone.png" alt="icone" class="rounded mx-auto d-block">Ajouter</a></div>
               </div>
             <div class="col">
-              <div class="p-3  post-it-green"></div>
+              <div class="p-3  post-it-green"><a href="card.php" class="link"><img src="<?php echo IMG_PATH;?>add-icone.png" alt="icone" class="rounded mx-auto d-block">Ajouter</a></div>
               </div>
             <div class="col">
-              <div class="p-3  post-it-blue"></div>
+              <div class="p-3  post-it-blue"><a href="card.php" class="link"><img src="<?php echo IMG_PATH;?>add-icone.png" alt="icone" class="rounded mx-auto d-block">Ajouter</a></div>
               </div>
             <div class="col">
-              <div class="p-3  post-it-yellow"></div>
+              <div class="p-3  post-it-yellow"><a href="card.php" class="link"><img src="<?php echo IMG_PATH;?>add-icone.png" alt="icone" class="rounded mx-auto d-block">Ajouter</a></div>
               </div>
             </div>
           </div>
         </div>
         <!-- list div  -->
         <div class="container   d-flex justify-content-start gap-3 row flex-row flex-nowrap  overflow-scroll"style="margin-left:0px;margin-top:10px  ">
-          <div class="card card-aside " > </div>
-          <div class="card bg-transparent card-table" >
-            <div><h5 class="card-title text-center bg-light " >Titre</h5></div>
-                 <div class="card-body overflow-auto bg-light ">
-                    <p class="card-text post-it-pearple" style="transform: rotate(0);">
-                       This stretched link</a> will only be spread over the p-tag, because a transform is applied to it.
+          <div class="card card-aside text-center" style="width: 100px">
+            <a href="list.php" class="link" ><img src="<?php echo IMG_PATH;?>add-icone.png" alt="icone" class="rounded mx-auto d-block">
+              Ajouter une liste
+            </a></div>
+          <div class="card bg-transparent card-table text-center" >
+            <!-- list name -->
+            <div><h5 class="card-title text-center bg-light " >Nom de la liste</h5></div>
+            
+                 <!-- card div -->
+                 
+            <div class="card-body overflow-auto bg-light ">
+     
+                 <!-- card containd -->
+                    <p class="card-text post-it-pearple" style="transform: rotate(0);">  
+                    <a href="" class="card-link"><img src="<?php echo IMG_PATH;?>delete-icone.png" alt="icone" class="icone"></a>
+                    <a href="cardModif.php" class="card-link"><img src="<?php echo IMG_PATH;?>modif-icone.png" alt="icone" class="icone"></a>
                     </p>  
             </div>
           </div>

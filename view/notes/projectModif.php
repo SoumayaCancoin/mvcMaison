@@ -18,42 +18,30 @@
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="card shadow  card_connexion mb-2 p-5 " >
                     <div class="card-body p-4">
-                        <img src="<?php echo IMG_PATH;?>icone.png" class="figure-img img-fluid rounded mx-auto d-block " alt="photo-personne-victorielle">
-                        <h3 class=" text-center mb-1">N.B</h3>
+                        
+                        <h3 class=" text-center mb-1">Modifier projet</h3>
+                        <p>Vous pouvez changer le titre et la description de votre projet</p>
              <!-- -------------------profil form------------- -->
                     <form>
-                        <!--  Name change input -->
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control mr-2" placeholder="Prenom" aria-label="Prenom" aria-describedby="button-addon2">
-                            <a href="#" class="link-primary">Modifier</a>
+                        <!--  Title change input -->
+                        <div class="form-group mb-3">
+                        <label class="form-label" for="form3Example3cg"> Titre </label>
+                            <input type="text" class="form-control mr-2" placeholder="Titre" aria-label="Titre" aria-describedby="button-addon2">
+                            
                         </div>
-                        <!-- family name password input -->
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control mr-2" placeholder="Nom" aria-label="Nom" aria-describedby="button-addon2">
-                            <a href="#" class="link-primary">Modifier</a>
-                        </div>
-                        <h3 class=" text-center mb-1">Choisir votre avatar</h3>
-                        <!-- Avatar chosing  -->
-                        <div class="flex-row d-flex justify-content-lg-around">
-                            <div class="flex-column d-flex" >
-                                <img src="<?php echo IMG_PATH;?>icone.png" class="figure-img img-fluid " alt="photo-personne-victorielle">
-                                <a href="#" class="link-primary">Choisir</a>
-                            </div>
-                            <div class="flex-column d-flex">
-                                <img src="<?php echo IMG_PATH;?>icone.png" class="figure-img img-fluid " alt="photo-personne-victorielle">
-                                <a href="#" class="link-primary">Choisir</a>
-                            </div>
-                            <div class="flex-column d-flex">
-                                <img src="<?php echo IMG_PATH;?>icone.png" class="figure-img img-fluid " alt="photo-personne-victorielle">
-                                <a href="#" class="link-primary">Choisir</a>
-                            </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">La description </label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="d-flex justify-content-center mb-2">
-                            <button type="button" class="btn btn-light btn-secondary btn-lg gradient-custom-4 text-body mt-2">Valider</button>
+                            <button type="button" class="btn btn-light btn-secondary btn-lg gradient-custom-4 text-body mt-2 mr-2">Valider</button>
+                            <button type="button" class="btn btn-light btn-secondary btn-lg gradient-custom-4 text-body mt-2">Annuler</button>
                         </div>
+                        <a href="userPage.php">Retour</a>
+                        <img src="<?php echo IMG_PATH;?>modif_project.png" alt="photo_ictorielle">
                     </form>
             </div>
-        </div>
+      
       </div>
    </div>
 

@@ -19,19 +19,14 @@
                     <div class="card shadow  card_connexion mb-2 p-5 " >
                     <div class="card-body p-4">
                         
-                        <h3 class=" text-center mb-1">Créer un nouveau projet</h3>
-                        <p>Vous pouvez ajouter des informations sur votre projet</p>
-             <!-- -------------------profil form------------- -->
+                        <h3 class=" text-center mb-1">Modifier carte</h3>
+                        <p>Vous pouvez modifier des informations sur la carte</p>
+             <!-- -------------------card form------------- -->
                     <form>
-                        <!--  Title change input -->
-                        <div class="form-group mb-3">
-                        <label class="form-label" for="form3Example3cg"> Titre </label>
-                            <input type="text" class="form-control mr-2" placeholder="Titre" aria-label="Titre" aria-describedby="button-addon2">
-                            
-                        </div>
-                        <!--  description add input -->
+                       
+                        <!-- containd card input -->
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">La description </label>
+                            <label for="exampleFormControlTextarea1">ModifierContenue </label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
@@ -40,11 +35,12 @@
                         </div>
                         <a href="userPage.php">Retour</a>
                         <div class="d-flex justify-content-center mb-2">
-                            <button type="button" class="btn btn-light btn-secondary btn-lg gradient-custom-4 text-body mt-2">Valider</button>
-                            
+                            <!-- validat button  -->
+                            <button type="button" class="btn btn-light btn-secondary btn-lg gradient-custom-4 text-body mt-2 mr-2">Valider</button>
+                            <button type="button" class="btn btn-light btn-secondary btn-lg gradient-custom-4 text-body mt-2">Annuler</button>  
                         </div>
-                        
-                        <img src="<?php echo IMG_PATH;?>pic_project_add.png" alt="photo_ictorielle">
+                     
+                        <img src="<?php echo IMG_PATH;?>card-img-forn.png" alt="photo_ictorielle">
                     </form>
             </div>
       

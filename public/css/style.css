@@ -41,7 +41,7 @@ div .btn{
     width: 30px;
 }
 .card-aside{
-    width: 2rem; 
+    width: 100px; 
     height: 30rem ; 
     background-color:#7C85A8 
 }
@@ -52,6 +52,10 @@ div .btn{
 .card-title{
     margin-bottom:3px; 
     margin-top:3px
+}
+.link{
+    text-decoration: none;
+    color: #525974;
 }
 .horizontal-scroll > .card{
     overflow-x: auto;
